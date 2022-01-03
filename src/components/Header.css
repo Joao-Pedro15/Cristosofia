@@ -1,0 +1,122 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: linear-gradient(20deg,#12121d, #d63626); */
+    background-color: #222;
+    height: 70px;
+    color: #fff;
+    overflow-x: none;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-family: 'Pushster', cursive;
+    letter-spacing: 1.5px;
+}
+
+.logo{
+    position: relative;
+    left: 50px;
+    z-index: 1;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 24px;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    right: 50px;
+}
+
+.nav-menu a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+}
+
+.nav-menu a::before{
+    content: '';
+    position: absolute;
+    bottom : -60%;
+    width: 00px;
+    height: 3px;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.nav-menu a:hover::before{
+    width: 100%;
+}
+
+.btn-menu{
+    position: relative;
+    display: none;
+    right: 50px;
+
+}
+
+.btn-menu i{
+    font-size: 25px;
+}
+
+@media(max-width: 960px){
+    .nav-menu{
+        /* display: none; */
+        gap: 35px;
+        opacity: 0;
+    }
+
+    .nav-menu .nav-link{
+        display: none;
+    }
+
+    .nav-menu.active{
+        opacity: 1;
+        position: absolute;
+        /* background: linear-gradient(100deg,#12121d, #d63626); */
+        background: #333;
+        top:100%;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* z-index: 1; */
+    }
+
+    .nav-menu.active .nav-link{
+        display: block;
+    }
+
+    .nav-menu a:first-of-type{
+        margin-top: 50px;
+    }
+
+    .nav-menu a{
+        width: 100vw;
+        text-align: center;
+        padding: 20px 10px;
+        transition: all .3s ease-in-out;
+        
+    }
+
+    .nav-menu a:hover::before{
+        width: 0;
+    }
+
+    .nav-menu a:hover{
+        background: #ccc;
+        color: #333;
+    }
+
+    .btn-menu{
+        display: block;
+    }
+}

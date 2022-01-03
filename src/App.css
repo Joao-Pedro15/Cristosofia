@@ -1,38 +1,65 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Pushster&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: sans-serif;
+}
+
+.container-cap{
+  margin: 100px 150px;
+  text-align: justify;
+}
+
+.container-cap h1{
+  margin-bottom: 40px;
   text-align: center;
+  font-size: 32px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-cap h2{
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container-cap p{
+  margin-bottom: 30px;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+
+.container-cap p li, .container-cap li{
+  font-weight: bold;
+  font-size: 13px;
+  margin-left:20px;
+}
+
+.container-cap ul{
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px){
+  .container-cap{
+    margin: 50px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media (max-width: 600px){
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .container-cap h1{
+    font-size: 25px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .container-cap h2{
+    font-size: 15px;
+  }
+  .container-cap p{
+    font-size: 12px;
   }
 }
