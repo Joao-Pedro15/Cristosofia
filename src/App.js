@@ -26,7 +26,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="Cristosofia/" exact element={<Home/>} />
+          <Route path="Cristosofia" exact element={<Home/>} />
           <Route path="/sobre" exact element={<Sobre/>} />
           <Route path="/legado" element={<Legado/>} />
           <Route path="/capitulo1" element={<Capitulo1/>} />
