@@ -4,7 +4,7 @@ import HeroSection from '../../HeroSection'
 function Capitulo6() {
     return (
         <>
-            <HeroSection src="/images/37331596772_eed2d3ef10_o.jpg" title="Capitulo 6" subtitle="PARMÊNIDES, ANAXÁGORAS E DEMÓCRITO"/>
+            <HeroSection src="./images/37331596772_eed2d3ef10_o.jpg" title="Capitulo 6" subtitle="PARMÊNIDES, ANAXÁGORAS E DEMÓCRITO"/>
             <main className="container-cap">
                 <h1> Parmênides, Anaxágoras e Demócrito</h1>
 

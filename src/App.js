@@ -27,16 +27,16 @@ function App() {
         <Header />
         <Routes>
           <Route path="Cristosofia" exact element={<Home/>} />
-          <Route path="/sobre" exact element={<Sobre/>} />
-          <Route path="/legado" element={<Legado/>} />
-          <Route path="/capitulo1" element={<Capitulo1/>} />
-          <Route path="/capitulo2" element={<Capitulo2/>} />
-          <Route path="/capitulo3" element={<Capitulo3/>} />
-          <Route path="/capitulo4" element={<Capitulo4/>} />
-          <Route path="/capitulo5" element={<Capitulo5/>} />
-          <Route path="/capitulo6" element={<Capitulo6/>} />
-          <Route path="/capitulo7" element={<Capitulo7/>} />
-          <Route path="/capitulo8" element={<Capitulo8/>} />
+          <Route path="Cristosofia/sobre" exact element={<Sobre/>} />
+          <Route path="Cristosofia/legado" element={<Legado/>} />
+          <Route path="Cristosofia/capitulo1" element={<Capitulo1/>} />
+          <Route path="Cristosofia/capitulo2" element={<Capitulo2/>} />
+          <Route path="Cristosofia/capitulo3" element={<Capitulo3/>} />
+          <Route path="Cristosofia/capitulo4" element={<Capitulo4/>} />
+          <Route path="Cristosofia/capitulo5" element={<Capitulo5/>} />
+          <Route path="Cristosofia/capitulo6" element={<Capitulo6/>} />
+          <Route path="Cristosofia/capitulo7" element={<Capitulo7/>} />
+          <Route path="Cristosofia/capitulo8" element={<Capitulo8/>} />
         </Routes>
       </Router>
       <Footer/>

@@ -21,8 +21,8 @@ function Header() {
             </div>
             <nav className={click ? "nav-menu active" : "nav-menu"}>
                 <Link to='/Cristosofia' onClick={closeMenu} className="nav-link">Início</Link>
-                <Link to='/legado' onClick={closeMenu} className="nav-link">Artigos</Link>
-                <Link to='/sobre' onClick={closeMenu} className="nav-link">Sobre</Link>
+                <Link to='Cristosofia/legado' onClick={closeMenu} className="nav-link">Artigos</Link>
+                <Link to='Cristosofia/sobre' onClick={closeMenu} className="nav-link">Sobre</Link>
             </nav>
             <div className="btn-menu" onClick={handleClick}>
                 <i className={click ? "fas fa-times" : "fas fa-bars"}></i>

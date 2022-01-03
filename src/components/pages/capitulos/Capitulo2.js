@@ -4,7 +4,7 @@ import HeroSection from '../../HeroSection'
 function Capitulo2() {
     return (
         <>
-            <HeroSection src="/images/achilles-g8b6378306_640.jpg" title="Capítulo 2" subtitle="AS GUERRAS NÃO APRESENTAM AMBIENTES FAVORÁVEIS À FILOSOFÍA"/>
+            <HeroSection src="./images/achilles-g8b6378306_640.jpg" title="Capítulo 2" subtitle="AS GUERRAS NÃO APRESENTAM AMBIENTES FAVORÁVEIS À FILOSOFÍA"/>
             <main className='container-cap'>
                 <h1>As guerras não apresentam ambientes favoráveis à filosofía</h1>
                 

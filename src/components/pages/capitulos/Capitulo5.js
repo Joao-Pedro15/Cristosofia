@@ -4,7 +4,7 @@ import HeroSection from '../../HeroSection'
 function Capitulo5() {
     return (
         <>
-            <HeroSection src="/images/pythagoras-g7215a582f_1280.jpg" title="Capítulo 5" subtitle="PITÁGORAS"/>
+            <HeroSection src="images/pythagoras-g7215a582f_1280.jpg" title="Capítulo 5" subtitle="PITÁGORAS"/>
             <main className="container-cap">
                 <h1>PITÁGORAS</h1>
 

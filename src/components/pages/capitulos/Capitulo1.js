@@ -4,7 +4,7 @@ import HeroSection from '../../HeroSection'
 function Capitulo1() {
     return (
         <>
-            <HeroSection src="/images/egypt-g7556a505a_1920.jpg" alt="Teste" title="Capitulo 1" subtitle="FILOSOFÍA GREGA É FILOSOÍA EGÍPCIA ROUBADA"/>
+            <HeroSection src="./images/egypt-g7556a505a_1920.jpg" alt="Teste" title="Capitulo 1" subtitle="FILOSOFÍA GREGA É FILOSOÍA EGÍPCIA ROUBADA"/>
             <main className="container-cap">
 
                 <h1 className="title-cap">A Filosofía grega é filosofía egípcia roubada</h1>

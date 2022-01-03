@@ -4,7 +4,7 @@ import HeroSection from '../../HeroSection'
 function Capitulo3() {
     return (
         <>
-            <HeroSection src="/images/the-death-of-socrates-g9ad385020_1280.png" title="Capitulo 3" subtitle="A FILOSOFÍA GREGA ERA O FRUTO DO SISTEMA DE MISTÉRIO EGÍPCIO"/>
+            <HeroSection src="./images/the-death-of-socrates-g9ad385020_1280.png" title="Capitulo 3" subtitle="A FILOSOFÍA GREGA ERA O FRUTO DO SISTEMA DE MISTÉRIO EGÍPCIO"/>
             <main className="container-cap">
                 <h1>A Filosofia Grega Era o Fruto do Sistema de Mistério Egípcio</h1>
 
