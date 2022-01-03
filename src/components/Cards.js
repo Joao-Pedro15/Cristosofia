@@ -13,14 +13,14 @@ function Cards() {
                 </div>
                 <div className="card-content">
                     <ul>
-                        <CardItem path="Cristosofia/capitulo2" src="./images/achilles-g8b6378306_640.jpg" text=" AS GUERRAS NÃO APRESENTAM AMBIENTE FAVORÁVEL AO SURGIMENTO DO PENSAMENTO" label="Capítulo #2"/>
-                        <CardItem path="Cristosofia/capitulo3" src="./images/the-death-of-socrates-g9ad385020_1280.png" text=" SISTEMA DOS MISTÉRIOS, LIBERTAÇÃO DA ALMA E ARTES LIBERAIS" label="Capítulo #3"/>
+                        <CardItem path="/Cristosofia/capitulo2" src="./images/achilles-g8b6378306_640.jpg" text=" AS GUERRAS NÃO APRESENTAM AMBIENTE FAVORÁVEL AO SURGIMENTO DO PENSAMENTO" label="Capítulo #2"/>
+                        <CardItem path="/Cristosofia/capitulo3" src="./images/the-death-of-socrates-g9ad385020_1280.png" text=" SISTEMA DOS MISTÉRIOS, LIBERTAÇÃO DA ALMA E ARTES LIBERAIS" label="Capítulo #3"/>
                     </ul>
                 </div>
                 <div className="card-content">
                     <ul>
                         <CardItem path="/Cristosofia/capitulo4" src="./images/22701215286_702584c697_o.jpg" text="TALES, ANAXIMANDRO, ANAXÍMENES E HERÁCLITO" label="Capítulo #4"/>
-                        <CardItem path="Cristosofia/capitulo5" src="./images/pythagoras-g7215a582f_1280.jpg" text="PITÁGORAS" label="Capítulo #5"/>
+                        <CardItem path="/Cristosofia/capitulo5" src="./images/pythagoras-g7215a582f_1280.jpg" text="PITÁGORAS" label="Capítulo #5"/>
                         <CardItem path="/Cristosofia/capitulo6" src="./images/37331596772_eed2d3ef10_o.jpg" text="PARMÊNIDES, ANAXÁGORAS E DEMÓCRITO" label="Capítulo #6"/>
 
                     </ul>
