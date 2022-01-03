@@ -20,7 +20,7 @@ function Header() {
                 <span>Cristosofía</span>
             </div>
             <nav className={click ? "nav-menu active" : "nav-menu"}>
-                <Link to='/Cristosofia' onClick={closeMenu} className="nav-link">Início</Link>
+                <Link to='Cristosofia' onClick={closeMenu} className="nav-link">Início</Link>
                 <Link to='Cristosofia/legado' onClick={closeMenu} className="nav-link">Artigos</Link>
                 <Link to='Cristosofia/sobre' onClick={closeMenu} className="nav-link">Sobre</Link>
             </nav>
