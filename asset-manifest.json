@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Cristosofia/static/css/main.6b16b80b.css",
-    "main.js": "/Cristosofia/static/js/main.af8cbfce.js",
+    "main.js": "/Cristosofia/static/js/main.2dd3d7d4.js",
     "index.html": "/Cristosofia/index.html",
     "main.6b16b80b.css.map": "/Cristosofia/static/css/main.6b16b80b.css.map",
-    "main.af8cbfce.js.map": "/Cristosofia/static/js/main.af8cbfce.js.map"
+    "main.2dd3d7d4.js.map": "/Cristosofia/static/js/main.2dd3d7d4.js.map"
   },
   "entrypoints": [
     "static/css/main.6b16b80b.css",
-    "static/js/main.af8cbfce.js"
+    "static/js/main.2dd3d7d4.js"
   ]
 }
