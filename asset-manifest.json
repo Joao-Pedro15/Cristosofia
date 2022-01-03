@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cristosofia/static/css/main.6b16b80b.css",
+    "main.js": "/Cristosofia/static/js/main.1436e19b.js",
+    "index.html": "/Cristosofia/index.html",
+    "main.6b16b80b.css.map": "/Cristosofia/static/css/main.6b16b80b.css.map",
+    "main.1436e19b.js.map": "/Cristosofia/static/js/main.1436e19b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b16b80b.css",
+    "static/js/main.1436e19b.js"
+  ]
+}
